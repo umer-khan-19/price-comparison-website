@@ -15,7 +15,7 @@ compareCloseBtn.addEventListener('click', () => {
 // get item list
 function getItemList(){
     let searchInputTxt = document.getElementById('search-input').value.trim();
-    fetch(`https://price-api.datayuge.com/api/v1/compare/search?api_key=ysSse3b7wv8C8TFEETaUNOcJQotvviIGpFq&product=${searchInputTxt}`)
+    fetch(`https://price-api.datayuge.com/api/v1/compare/search?api_key=0vHCE4U0e7KBGDf4XUuYB78qSApUjs5k5o&product=${searchInputTxt}`)
     .then(response => response.json())
     .then(data => {
         let html = "";
